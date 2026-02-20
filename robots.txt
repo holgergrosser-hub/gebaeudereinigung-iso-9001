@@ -1,0 +1,33 @@
+# robots.txt für gebaeudereinigung-iso-9001.qm-guru.de
+
+User-agent: *
+Allow: /
+
+# Sitemap Location
+Sitemap: https://gebaeudereinigung-iso-9001.qm-guru.de/sitemap.xml
+
+# Crawl-delay für bessere Server-Performance
+Crawl-delay: 1
+
+# Spezielle Regeln für häufige Crawler
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Blockiere bekannte Bad Bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
